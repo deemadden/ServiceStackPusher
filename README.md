@@ -7,17 +7,20 @@ This is a Visual Studio 2013 Solution.
 
 ##ServiceStackPusher REST API
 It has a single POST endpoint:
+
 http://[localhost, 127.0.0.1 or ip]:1337/register/:devicetype?format=json
 
 Headers:
+
 Content-Type: application/json
 
 Request body:
+
 {
   "deviceToken" : "smartphonedevicepushtoken"
 }
 
-*devicetype parameter:* Expects "iphone" or "android" as a device type parameter
+**devicetype parameter:** Expects "iphone" or "android" as a device type parameter
 
 ###How to run
 1. Open Visual Studio as Administrator, then open solution
