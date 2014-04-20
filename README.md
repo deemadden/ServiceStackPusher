@@ -6,15 +6,19 @@ A command shell ServiceStack-based REST Service Example that saves a POST body t
 This is a Visual Studio 2013 Solution.
 
 ##ServiceStackPusher REST API
-It has a single POST endpoint:
+**/register endpoint:**
 
 http://[localhost, 127.0.0.1 or ip]:1337/register/:devicetype?format=json
 
-Headers:
+**Method:**
+
+POST
+
+**Headers:**
 
 Content-Type: application/json
 
-Request body:
+**Request body example:**
 
 {
   "deviceToken" : "smartphonedevicepushtoken"
