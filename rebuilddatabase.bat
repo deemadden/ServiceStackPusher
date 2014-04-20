@@ -1,0 +1,1 @@
+sqlite3.exe ServiceStackPusher2\bin\x86\Debug\db.sqlite "create table tblInitialize(id integer primary key, message varchar(10))"
